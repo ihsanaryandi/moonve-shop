@@ -48,7 +48,7 @@ body{
 }
 
 .moonve-nav .links{
-	width: 40%;
+	width: 45%;
 	height: 100%;
 }
 
@@ -230,9 +230,17 @@ body{
 	transform: translate(10px, 0); 
 }
 
+@media only screen and (max-width: 770px)
+{
+	.moonve-nav .links{
+		width: 70%;
+	}
+}
 
 @media only screen and (max-width: 520px)
 {
+
+
 	.moonve-nav .search-product .input-wrapper{
 		width: 90%;
 	}

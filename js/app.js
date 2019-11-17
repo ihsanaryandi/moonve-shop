@@ -14,6 +14,21 @@ $('.side-bar .close').on('click', function(){
 
 })
 
+$('.side-bar-container .overlay').on('click', function(){
+	
+	$(this).parent().removeClass('open')	
+
+})
+
+$(document).on('keyup', function(e){
+	
+	if(e.keyCode === 27)
+	{
+		$('.side-bar-container').removeClass('open')
+	}	
+
+})
+
 $('.category .sub-menu-opener').on('click', function(){
 
 	const category = $(this).prev('a')
