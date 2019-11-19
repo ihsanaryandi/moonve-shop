@@ -147,14 +147,23 @@ body{
 	margin-bottom: 10px;
 }
 
-.product-card .product-body .product-rating p{
+.product-rating p{
 	display: inline-block;
 	margin: 0 15px;
 	font-size: 15px;
 	cursor: pointer;
 }
 
-.product-card .product-body .product-rating p span{
+.product-rating p i.fas{
+	color: rgba(0, 0, 0, 0.35);
+	transition: .3s ease;
+}
+
+.product-rating p i.fas:hover{
+	color: rgba(0, 0, 0, 0.7);
+}
+
+.product-rating p span{
 	font-size: 13px;
 	color: rgba(0, 0 ,0, 0.5);
 }
@@ -164,7 +173,7 @@ body{
 	justify-content: space-around;
 }
 
-.product-card .product-body .product-btns a.btn-add-to-cart{
+.btn-add-to-cart{
 	width: 100%;
 	display: block;
 	padding: 2px 0;
@@ -202,10 +211,17 @@ body{
 	color: #000;
 }
 
-/*-------------Filter--------------*/
 
+/*----Default-Select----*/
 
-
+select{
+	width: 100%;
+	padding: 0 8px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	color: rgba(0, 0, 0, 0.7);
+	outline: none;
+	font-size: 16px;
+}
 
 /*------Display-Types------*/
 
