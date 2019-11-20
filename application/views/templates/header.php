@@ -23,6 +23,7 @@
 	<?= css('main'); ?>
 	<?= css('main_store'); ?>
 	<?= css('main_product'); ?>
+	<?= css('main_cart'); ?>
 	<?= css('footer'); ?>
 
 	<!-- <link rel="stylesheet" type="text/css" href="css/utilities.css">
@@ -42,11 +43,11 @@
 			</div>
 			<div class="links desktop-only">
 				<ul>
-					<li><a href="store.html" class="link">All Products</a></li>
+					<li><a href="<?= base_url('moonve/store'); ?>" class="link">All Products</a></li>
 					<li><a href="#" class="link">Login</a></li>
 					<li><a href="#" class="link">Register</a></li>
 					<li>
-						<a href="#" class="link">
+						<a href="<?= base_url('moonve/cart'); ?>" class="link">
 							Cart <i class="fas fa-shopping-cart"><p class="product-count">9</p></i>
 						</a>
 					</li>
