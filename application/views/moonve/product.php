@@ -128,7 +128,7 @@
 					<textarea placeholder="Send a message for seller here..."></textarea>
 				</div>
 
-				<button class="add-to-cart">Add to Cart <i class="fas fa-shopping-cart"></i></button>
+				<button class="moonve-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
 
 				<hr>
 

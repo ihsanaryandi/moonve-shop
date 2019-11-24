@@ -70,7 +70,7 @@ div.divider{
 	width: 100%;
 	height: 1px;
 	background-color: var(--less-color-theme);
-	margin: 15px 0;
+	margin: 20px 0 30px 0;
 }
 
 /*-------------------Product-Card-------------------*/
@@ -331,6 +331,26 @@ div.divider{
 	color: #fff;
 	background-color: var(--color-theme);
 	/*background-color: #1fe040;*/
+}
+
+.moonve-btn{
+	display: block;
+	margin: 20px 0;
+	padding: 8px 25px;
+	width: 100%;
+	text-transform: uppercase;
+	color: #fff;
+	border: none;
+	outline: none;
+	background-color: var(--color-theme);
+	border-radius: 25px;
+	text-decoration: none;
+	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+	transition: .3s ease-out;
+}
+
+.moonve-btn:hover{
+	opacity: .95;
 }
 
 

@@ -19,6 +19,7 @@ class Moonve extends CI_Controller {
 		$this->load->view('templates/header');
 		$this->load->view('templates/sidebar');
 		$this->load->view('moonve/cart');
+		$this->load->view('templates/footer');
 
 	}
 

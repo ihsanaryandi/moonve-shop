@@ -75,7 +75,18 @@
 				</div>
 			</div>
 			<div class="col-lg-6 col-md-6">
-				Mamank
+				<div class="cart-buy">
+					<h4 class="text-center mb-4">Detail</h4>
+					<div class="buy-detail d-flex justify-content-between">
+						<p>Product Count</p>
+						<span>2</span>
+					</div>
+					<div class="buy-detail d-flex justify-content-between">
+						<p>Price Total</p>
+						<span>Rp.4.000.000,00</span>
+					</div>
+					<button class="moonve-btn mb-1">Buy Now</button>
+				</div>
 			</div>
 		</div>
 	</div>
